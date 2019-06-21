@@ -8,11 +8,11 @@ This project was created because the local 50's diner I was employed at needed a
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 ## Screenshots
-![Image](50-s-Website-Project/ScreenShot1.jpg?raw=true "Screenshot 1")
+![Image](screenshot1.png?raw=true "Screenshot 1")
 
-![Image](ScreenShot2.jpg?raw=true "Screenshot 2")
+![Image](screenshot2.png?raw=true "Screenshot 2")
 
-![Image](ScreenShot3.jpg?raw=true "Screenshot 3")
+![Image](screenshot3.png?raw=true "Screenshot 3")
 
 
 ## Tech/framework used
@@ -63,6 +63,6 @@ Show what the library does as concisely as possible, developers should be able t
   > [FreeContactForm](freecontactform.com) - for help with the creation of the comments form
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 Copyright 2019 © [niknik27](https://github.com/niknik27)
