@@ -1,0 +1,221 @@
+* {box-sizing:border-box;
+overflow-x: hidden;}
+
+body{
+  background-color: #f4ebdc;
+  background-size: 100%;
+  overflow-x: hidden;
+  /*background-color:#97694F;*/
+}
+
+
+
+#main-container{
+    margin-top: 5%;
+
+}
+
+/*new slideshow code #2*/
+
+/*new slideshow code #2 end*/
+
+
+/*#banner-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+
+.banner{
+    width: 0;
+    height: auto;
+}*/
+
+
+
+#sumandslide-container{
+  position: relative;
+
+}
+
+.summary-container{
+  background-color: #FCA697;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.summary{
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 15px;
+
+}
+
+.whitebg{
+    width: 80%;
+    background-color: #f5f5f5;
+    margin: auto;
+    overflow-y: hidden;
+}
+.bgcontainer1{
+
+  opacity: 100%;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  width: 98%;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg); /* Safari */
+  transform: rotate(-5deg); /* Standard syntax */
+  border: 10px solid white;
+}
+
+.slideshow-container img{
+  /*border-radius: 15px;*/
+    width: 100%;
+}
+
+
+.mySlides {
+    display: none;
+
+}
+
+.change {
+    display: block;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+/* When the screen is less than 680 pixels wide, remove margin */
+@media screen and (max-width:780px) {
+
+    #main-container{
+        margin-top: 10%;
+    }
+
+  .dinerArt{
+    top: 210px;
+    left: -20px;
+    max-width: 150px;
+  }
+
+.summary-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+  .summary{
+    font-size: 15px;
+  }
+
+
+
+  #banner-container{
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.bgcontainer1{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width:480px) {
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
+  .summary{
+    font-size: 13px;
+  }
+}

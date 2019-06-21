@@ -1,0 +1,17 @@
+#form_redirect{
+  background-color: #f4ebdc;
+  background-size: 100%;
+  overflow-x: hidden;
+  /*background-color:#97694F;*/
+}
+
+.form_redirect_text{
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    font: 17px "Cherry Cream Soda", monospace, sans-serif;
+}
+
+.redirectLogo{
+
+}

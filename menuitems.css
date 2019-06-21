@@ -1,0 +1,251 @@
+.food-wrap{
+    background-color: #ffcc99;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.callnow-wrap{
+    width: auto;
+    height: auto;
+    /*background-color: red;*/
+    display: block;
+}
+
+.callnow-text{
+    font-size: 17px;
+    text-align: center;
+    font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+.callnow-text a{
+    pointer-events: none;
+    cursor: default;
+    text-decoration:none;
+    color:black;
+}
+
+.ubereats-text{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+
+
+.telnum{
+    text-decoration: underline;
+
+}
+
+.address{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+.Category{
+    text-align: center;
+    font-weight: normal;
+    font-family: "Cherry Cream Soda", monospace, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.menu-name{
+  color: #4F2412;
+  text-align: center;
+  font-family: "Bungee Shade", monospace, sans-serif;
+  font-size: 50px;
+}
+
+.main-wrap{
+  background-color: white;
+  vertical-align: middle;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+
+
+/*.left-col{
+  width: 48%;
+  height: auto;
+  float: left;
+  background-color: red;
+
+}
+
+.right-col{
+height: auto;
+  width: 48%;
+  float: right;
+  background-color: blue;
+}*/
+
+.specials-wrap{
+  width: 90%;
+  height: auto;
+  border: 5px solid black;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.specials{
+  color: #4F2412;
+  text-align: center;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 20px;
+}
+
+.specials-des{
+  color: #4F2412;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+
+}
+
+.specials-price{
+  font-size: 10px;
+}
+
+
+.names{
+  /*color: #D8D8D0;*/
+  display: list-item;
+  list-style-position: inside;
+  font-size: 17px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: #4F2412;
+  text-align: left;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+.details{
+  /*color: #D8D8D0;*/
+  color: #4F2412;
+  text-align: left;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+
+
+.add-des{
+  color: #4F2412;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+.uline{
+    text-decoration: underline;
+
+}
+
+.des-wrap{
+    max-width: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.description{
+  /*color: #D8D8D0;*/
+  font-size: 12px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #4F2412;
+  text-align: left;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+}
+
+ul.description{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price{
+  font-size: 12px;
+}
+
+.add-wrap{
+
+  margin: auto;
+
+}
+
+@media screen and (max-width:500px){
+
+    .food-wrap{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .callnow-text{
+        font-size: 15px;
+
+
+    }
+
+    .callnow-text a{
+        pointer-events: auto;
+        cursor:auto;
+        text-decoration:none;
+
+
+    }
+
+    .ubereats-text{
+        font-size: 12px;
+    }
+
+    .address{
+        font-size: 12px;
+
+    }
+
+  .left-col{
+    width: auto;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .right-col{
+
+    width: auto;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .menu-name{
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width:100px){
+    .menu-name{
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .specials-wrap{
+
+    }
+}

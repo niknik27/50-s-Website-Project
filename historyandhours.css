@@ -1,0 +1,179 @@
+
+.allinfo-container{
+  overflow: hidden;
+  border: 0px;
+}
+
+.info-container{
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+.history-container{
+
+  overflow: hidden;
+  margin: 15px;
+  padding: 10px;
+}
+
+.location-container{
+    float: left;
+}
+.hours-container{
+    float: right;
+    width: 40%;
+    border-left: 5px solid red;
+}
+
+.header{
+
+  color: #ed1c24;
+  font-family: "Lobster", monospace, sans-serif;
+  font-size: 40px;
+}
+
+
+.info{
+
+  color: #a73c42;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 15px;
+}
+
+.hours{
+
+  color: black;
+  text-align: center;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 15px;
+
+}
+
+.tablehours{
+
+  color: black;
+  text-align: center;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  margin:auto;
+  font-size: 14px;
+}
+
+.header{
+  text-align: center;
+}
+
+.footer{
+  /*background-color: #ed1c24;*/
+  position:relative;
+  height: 90px;
+  margin-top: 40px;
+  background-color: #ed1c24; background-image: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#ff4040));
+  background-image: -webkit-linear-gradient(top, #ed1c24, #ff4040);
+  background-image: -moz-linear-gradient(top, #ed1c24, #ff4040);
+  background-image: -ms-linear-gradient(top, #ed1c24, #ff4040);
+  background-image: -o-linear-gradient(top, #ed1c24, #ff4040);
+  background-image: linear-gradient(to bottom, #ed1c24, #ff4040);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ed1c24, endColorstr=#ff4040);
+}
+
+.footer2{
+  background-color: #ed1c24;
+  position:relative;
+  top: 100px;
+  height: 90px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
+
+}
+
+.foot-left{
+  float: left;
+}
+
+.foot-right{
+  float: right;
+}
+
+.footer-text{
+  color: white;
+  text-decoration: none;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.footer-head{
+  color: white;
+  text-decoration: none;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 12px;
+  padding: 0;
+  margin: 4px;
+  text-align: left;
+}
+
+.footer-right{
+  color: white;
+  text-decoration: none;
+  font-family: "Cherry Cream Soda", monospace, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  margin: 4px;
+  text-align: right;
+}
+@media screen and (max-width:780px) {
+  .history-container{
+
+    min-width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  .location-container{
+      position: center;
+      width: 100%;
+  }
+  .hours-container{
+      position: center;
+      width: 100%;
+      border-left: 0px solid red;
+  }
+
+  .footer{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer2{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+
+@media screen and (max-width:780px){
+
+  .hours, .tablehours{
+    font-size: 12px;
+  }
+
+  .header{
+    font-size: 25px;
+  }
+  .info-container{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width:480px){
+
+    .footer-head{
+        font-size: 11px;
+    }
+    .footer-right{
+        font-size: 10px;
+    }
+}
