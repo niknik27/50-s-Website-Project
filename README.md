@@ -8,11 +8,11 @@ This project was created because the local 50's diner I was employed at needed a
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 ## Screenshots
-![Image](50-s-Website-Project/ScreenShot1.jpg?raw=true "Screenshot 1")
+![Image](screenshot1.png?raw=true "Screenshot 1")
 
-![Image](ScreenShot2.jpg?raw=true "Screenshot 2")
+![Image](screenshot2.png?raw=true "Screenshot 2")
 
-![Image](ScreenShot3.jpg?raw=true "Screenshot 3")
+![Image](screenshot3.png?raw=true "Screenshot 3")
 
 
 ## Tech/framework used
