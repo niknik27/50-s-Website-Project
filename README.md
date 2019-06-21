@@ -63,6 +63,6 @@ Show what the library does as concisely as possible, developers should be able t
   > [FreeContactForm](freecontactform.com) - for help with the creation of the comments form
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 Copyright 2019 © [niknik27](https://github.com/niknik27)
