@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- PROJECT DESCRIPTION:
+<!-- project description:
 **** This project is for a 50's hamburger place.
 **** The website is styled to fit the style of the restaurant.
 **** The website is also built as a single scrolling site with one main page.-->
@@ -9,8 +9,8 @@
  <!-- KEYWORDS USED FOR SEARCH ENGINES -->
 <meta name="keywords" content="Burgers, Fries, Soup, Fifties, Restaurant, Nostalgic">
 
-<!-- STYLESHEETS USED FOR VARIOUS ELEMENTS IN THE MAIN PAGE.
-        EACH STYLESHEET NAME CORRESPONDS TO SPECIFIC ELEMENTS IN THE PAGE-->
+<!-- stylesheets used for various elements in the main page.
+        each stylesheet name corresponds to specific elements in the page-->
   <link rel="stylesheet" type="text/css" href="navbar.css?version=4">
   <link rel="stylesheet" type="text/css" href="slideshow.css?version=4">
   <link rel="stylesheet" type="text/css" href="aboutusdesign.css?version=4">
@@ -20,18 +20,18 @@
   <link rel="stylesheet" type="text/css" href="menuitems.css?version=4">
   <link rel="stylesheet" type="text/css" href="form.css?version=4">
 
-<!-- CONNECTED JAVASCRIPT FILES-->
+<!-- connected javascript files-->
   <script src="windowcheck.js" type="text/javaScript"></script>
   <script src="modalOpen.js" type="text/javaScript"></script>
 
-<!-- LINKS TO THE VARIOUS GOOGLE FONTS USED IN THE WEBSITE -->
+<!-- links to the various google fonts used in the website -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel='stylesheet' type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda" rel='stylesheet' type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel='stylesheet' type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel='stylesheet' type="text/css">
 
-<!-- JQUERY AND AJAX INITIALIZERS -->
+<!-- jquery and ajax initializers -->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="jQueryLoad.js"></script>
 
@@ -39,7 +39,7 @@
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-<!-- SCROLLS SMOOTHLY TO DIFFERENT PARTS OF THE WEBSITE ON LINK CLICK-->
+<!-- scrolls smoothly to different parts of the website on link click-->
   <script type="text/javascript" src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
   <script type="text/javascript">
   $(function() {
@@ -68,8 +68,8 @@
       <a href="index.html" id="logohome"><img class = "logo" src="images/SchoopsLogo.png" width="250" alt="Schoop's Logo"></a>
   </div>-->
 
-<!-- CREATES NAVIGATION LINKS.
-    LINKED "navbar.css" and "windowcheck.js" FILES CREATES A RESPONSIVE COLLAPSIBLE NAVIGATION MENU-->
+<!-- creates navigation links.
+    linked "navbar.css" and "windowcheck.js" files creates a responsive collapsible navigation menu-->
 <div class ="collapse" id="nav-container">
   <ul class="topnav" id="myTopnav">
   <li><a onclick="myFunction()" href="#hours">Visit Us</a></li>
@@ -79,8 +79,8 @@
   <li><a onclick="myFunction()" href="#aboutus1" id="About" >About Us</a></li>
   <li><a href="https://www.ubereats.com/en-US/chicago/food-delivery/schoops-hamburgers-tinley-park/qoie4Y_sSGGZgxyuDBcYqQ/" target="_blank" id="Order" >Order Online!</a></li>
   <li class="icon">
-    <!-- myFunction() COMES FROM THE .js FILE THAT ADDS OF REMOVES A VARIABLE CONNECTED TO THE CSS fieldset
-            SEE windowcheck.js-->
+    <!-- myfunction() comes from the .js file that adds of removes a variable connected to the css fieldset
+            see windowcheck.js-->
     <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
   </li>
     </ul>
@@ -94,14 +94,14 @@
           <div class="whitebg">
 
 <!--slideshow trial #2-->
-<!-- CREATES A CONTAINER FOR THE SLIDESHOW -->
+<!-- creates a container for the slideshow -->
 <div class="slideshow-container">
 
    <img class="mySlides" src="images2/soup.jpg" alt="Chicken and Dumplings Soup" >
    <img class="mySlides" src="images2/MushandMozz.jpg" alt="Fried Mushrooms and Mozzarella" >
 </div>
 
-<!-- A SECTION OF JAVASCRIPT CODE TO CREATE A FUNCTIONING SLIDESHOW IN THE WEBSITE -->
+<!-- a section of javascript code to create a functioning slideshow in the website -->
 <script type="text/javaScript">
 var myIndex = 0;
 carousel();
@@ -143,7 +143,7 @@ function carousel() {
 
   </div>
 
-<!-- CREATED CONTAINER FOR THE RESTAURANT'S INFORMTATION -->
+<!-- created container for the restaurant's informtation -->
   <div class="allinfo-container">
     <div class="info-container">
 
@@ -229,7 +229,7 @@ function carousel() {
         </p>
       </div>
 
-<!-- RIGHT AND LEFT COLUMNS WERE CREATED FOR USE IN A PREVIOUS VERSION OF THE WEBSITE TO LESSEN THE NEED TO SCROLL-->
+<!-- right and left columns were created for use in a previous version of the website to lessen the need to scroll-->
       <div class="left-col">
         <h3 class="names">Menu Item <span class="price">&#8226; Price</span></h3>
 
@@ -380,7 +380,7 @@ form #1 end-->
 
 <!--form #2 start taken from="https://www.freecontactform.com/email_form.php"-->
 
-<!-- A JAVASCRIPT SECTION THAT CREATES A COMMENTS SUBMISSION FORM -->
+<!-- a javascript section that creates a comments submission form -->
 <script>
 $(function(){
     $("input").prop('required',true);
@@ -394,7 +394,7 @@ $(function(){
         For your convenience please use this form for feedback!
     </p>
 
-<!-- CREATION OF THE FORM, ALSO LINKING THE .php FILE FOR THE SENDING CODE -->
+<!-- creation of the form, also linking the .php file for the sending code -->
 <form name="contactform" method="post" action="send_form_email.php">
 
   <label for="name" class="form_label">Name</label>
@@ -419,8 +419,8 @@ $(function(){
 
 </form>
 
-<!-- ALTERNATIVE WAY TO EMAIL THE RESTAURANT -->
-<!-- LINK TO GO TO THE USER'S EMAIL APPLICATION, UTOFILLING THE EMAIL ADDRESS OF THE RESTAURANT AND THE SUBJECT -->
+<!-- alternative way to email the restaurant -->
+<!-- link to go to the user's email application, utofilling the email address of the restaurant and the subject -->
 <p class="smaller">
     You may also email us at:
 </br>

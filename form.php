@@ -25,7 +25,7 @@
 
          if ($_POST['submit']) {
             if (mail ($to, $subject, $body, $from)) {
-                
+
             } else {
                 echo '<p class="smaller">Sorry! Something went wrong, please go back and try again.</p>';
             }
