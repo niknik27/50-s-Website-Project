@@ -32,9 +32,12 @@
   text-decoration: underline;
 }
 
+
+
 .bg1{
   width: 300px;
-  height: 172px;
+  height: 200px;
+  overflow: hidden;
   display: inline-block;
   border: 5px solid #B5091B;
   -ms-transform: rotate(-20deg); /* IE 9 */
@@ -44,7 +47,9 @@
 
 .bg2{
   width: 300px;
-  height: 172px;
+  height: 200px;
+  overflow: hidden;
+
   display: inline-block;
   border: 5px solid #B5091B;
   position: relative;
@@ -55,7 +60,8 @@
 
 .bg3{
   width: 300px;
-  height: 172px;
+  height: 200px;
+  overflow: hidden;
   display: inline-block;
   border: 5px solid #B5091B;
   -ms-transform: rotate(20deg); /* IE 9 */
