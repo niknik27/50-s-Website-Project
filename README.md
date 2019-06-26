@@ -61,7 +61,7 @@ This project was created because the local 50's diner I was employed at needed a
   
   > [Photo by Colin Avery on Unsplash](https://unsplash.com/photos/5e-ljvIaiBM)
   
-  > [Photo by R. Mac Wheeler on Unsplash] (https://unsplash.com/photos/CJZi367anGU) 
+  > [Photo by R. Mac Wheeler on Unsplash](https://unsplash.com/photos/CJZi367anGU) 
   
 
 ## License
