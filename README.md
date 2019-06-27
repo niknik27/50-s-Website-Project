@@ -13,10 +13,9 @@ This project was created because the local 50's diner I was employed at needed a
 
 <img src="screenshot2.png?raw=true" width="40%" alt = "screenshot 2">
 
-<img src="screenshot3.png?raw=true" width="40%" alt = "screenshot 3">
-
 <img src="screenshot4.png?raw=true" width="40%" alt = "screenshot 4">
 
+<img src="screenshot3.png?raw=true" width="40%" alt = "screenshot 3">
 
 ## Tech/framework used
 <b>Built with</b>
