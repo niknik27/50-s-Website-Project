@@ -58,6 +58,11 @@ This project was created because the local 50's diner I was employed at needed a
   > [Vecteezy](https://www.vecteezy.com/) -  for the various open source vectors
   
   > [FreeContactForm](freecontactform.com) - for help with the creation of the comments form
+  
+  > [Photo by Colin Avery on Unsplash](https://unsplash.com/photos/5e-ljvIaiBM)
+  
+  > [Photo by R. Mac Wheeler on Unsplash](https://unsplash.com/photos/CJZi367anGU) 
+  
 
 ## License
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
