@@ -16,7 +16,7 @@ This project was created because the local 50's diner I was employed at needed a
 
 ![Image](screenshot4.png?raw=true "Screenshot 4")
 
-<img src="https://github.com/screenshot4.png" width="40%">
+<img src="screenshot4.png" width="40%">
 
 ## Tech/framework used
 <b>Built with</b>
