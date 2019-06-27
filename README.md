@@ -8,15 +8,15 @@ This project was created because the local 50's diner I was employed at needed a
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 ## Screenshots
-![Image](screenshot1.png?raw=true "Screenshot 1")
 
-![Image](screenshot2.png?raw=true "Screenshot 2")
+<img src="screenshot1.png?raw=true" width="40%" alt = "screenshot 1">
 
-![Image](screenshot3.png?raw=true "Screenshot 3")
+<img src="screenshot2.png?raw=true" width="40%" alt = "screenshot 2">
 
-![Image](screenshot4.png?raw=true "Screenshot 4")
+<img src="screenshot3.png?raw=true" width="40%" alt = "screenshot 3">
 
-<img src="screenshot4.png" width="40%">
+<img src="screenshot4.png?raw=true" width="40%" alt = "screenshot 4">
+
 
 ## Tech/framework used
 <b>Built with</b>
