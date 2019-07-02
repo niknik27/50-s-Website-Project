@@ -8,8 +8,6 @@ This project was created because the local 50's diner I was employed at needed a
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 ## Preview
-![Recordit GIF](http://g.recordit.co/A5SuapOeaJ.gif)
-
 <img src="50sWebsite.gif" width="90%">
 
 ## Screenshots
