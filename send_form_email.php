@@ -90,7 +90,6 @@ $headers = 'From: '.$email_from."\r\n".
 <title>Schoop's Tinley Park | Form Sent Successfully</title>
 </head>
 <body id="form_redirect">
-    <img class = "redirectLogo" src="images2/SchoopsLogo.png" width="300" alt="Schoop's Logo"></a>
     <p class = "form_redirect_text">
         Thank you for contacting us. We will be in touch with you very soon.
     </br>

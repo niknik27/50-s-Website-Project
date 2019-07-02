@@ -17,8 +17,8 @@
         $email = $_POST['email'];
         $message = $_POST['message'];
         $subject = $_POST['subject'];
-        $from = 'From: SchoopsTPWebsiteForms';
-        $to = 'comments@schoopstinleypark.com';
+        $from = 'From: WebsiteForms';
+        $to = 'comment@comments.com';
 
 
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
