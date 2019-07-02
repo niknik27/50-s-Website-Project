@@ -7,6 +7,9 @@ This project was created because the local 50's diner I was employed at needed a
 ## Build status
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
+## Preview
+![Recordit GIF](http://g.recordit.co/A5SuapOeaJ.gif)
+
 ## Screenshots
 
 <img src="screenshot1.png?raw=true" width="40%" alt = "screenshot 1">
