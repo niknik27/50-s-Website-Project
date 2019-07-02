@@ -10,7 +10,7 @@ This project was created because the local 50's diner I was employed at needed a
 ## Preview
 ![Recordit GIF](http://g.recordit.co/A5SuapOeaJ.gif)
 
-<img src="50sWebsite.gif" width="50%">
+<img src="50sWebsite.gif" width="80%">
 
 ## Screenshots
 
