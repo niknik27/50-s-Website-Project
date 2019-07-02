@@ -10,6 +10,8 @@ This project was created because the local 50's diner I was employed at needed a
 ## Preview
 ![Recordit GIF](http://g.recordit.co/A5SuapOeaJ.gif)
 
+<img src="http://g.recordit.co/A5SuapOeaJ.gif" width="200px">
+
 ## Screenshots
 
 <img src="screenshot1.png?raw=true" width="40%" alt = "screenshot 1">
