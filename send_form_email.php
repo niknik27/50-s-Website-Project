@@ -468,33 +468,8 @@ $(function(){
 <div class="form_wrap">
 
     <p class="smaller">
-        For your convenience please use this form for feedback!
+      Thank you very much! Your comment has been sent.
     </p>
-
-<!-- creation of the form, also linking the .php file for the sending code -->
-<form name="contactform" method="post" action="send_form_email.php">
-
-  <label for="name" class="form_label">Name</label>
-
-  <input  class="form_input" type="text" name="name">
-
-  <label for="subject" class="form_label">Subject</label>
-
-  <input class="form_input" type="text" name="subject">
-
-  <label  for="email" class="form_label">Email Address</label>
-
-  <input class="form_input" type="text" name="email" >
-
-  <label for="comments" class="form_label">Comments</label>
-
-  <textarea class="form_message" name="comments"></textarea>
-
-  <input id= "submit" type="submit" value="Submit">
-</br>
-  <p class = "credit">Email Form Provided by freecontactform.com</p>
-
-</form>
 
 <!-- alternative way to email the restaurant -->
 <!-- link to go to the user's email application, utofilling the email address of the restaurant and the subject -->
